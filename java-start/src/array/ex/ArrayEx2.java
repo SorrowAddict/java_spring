@@ -16,7 +16,7 @@ public class ArrayEx2 {
         System.out.println("출력");
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i]);
-            if (i < numbers.length - 1) {
+            if (i < numbers.length - 1) {   // numbers.length - 1 로 배열의 마지막 부분만 if 구문 통과 X
                 System.out.print(", ");
             }
         }
