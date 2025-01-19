@@ -9,6 +9,10 @@ public class Array1 {
         int student5 = 50;
         int student6 = 40;
 
+//        for (int i = 1; i <= 6; i++) {
+//            System.out.println("학생" + i + " 점수: " + student1);
+//        }
+
         System.out.println("학생1 점수: " + student1);
         System.out.println("학생2 점수: " + student2);
         System.out.println("학생3 점수: " + student3);
