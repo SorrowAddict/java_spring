@@ -5,7 +5,8 @@ public class Array1Ref1 {
         int[] students; // 배열 변수 선언
         students = new int[5];
 
-        System.out.println(students);
+        // 참조값을 출력
+        System.out.println(students);   // [I@b4c966a
 
         students[0] = 90;
         students[1] = 80;
