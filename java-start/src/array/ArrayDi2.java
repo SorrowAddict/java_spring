@@ -13,9 +13,9 @@ public class ArrayDi2 {
         arr[1][2] = 6;
 
         for (int row = 0; row < arr.length; row++) {
-            System.out.println(arr[row][0] + " ");
-            System.out.println(arr[row][1] + " ");
-            System.out.println(arr[row][2] + " ");
+            for (int col = 0; col < arr[row].length; col++) {
+                System.out.println(arr[row][col]);
+            }
             System.out.println();
         }
     }
