@@ -3,7 +3,7 @@ package array;
 public class Array1Ref2 {
     public static void main(String[] args) {
 //        int students[] = new int[]{90, 80, 70, 60, 50};   // 배열 생성과 초기화
-        int[] students = {90, 80, 70, 60, 50};
+        int[] students = {90, 80, 70, 60, 50, 40, 30, 20, 10};
 
         // 변수 값 사용
         for (int i = 0; i < students.length; i++) {
