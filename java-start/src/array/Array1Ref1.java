@@ -5,6 +5,8 @@ public class Array1Ref1 {
         int[] students; // 배열 변수 선언
         students = new int[5];
 
+        System.out.println(students);
+
         students[0] = 90;
         students[1] = 80;
         students[2] = 70;
