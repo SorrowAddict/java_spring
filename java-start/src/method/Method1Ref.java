@@ -18,5 +18,6 @@ public class Method1Ref {
         System.out.println(a + "+" + b + " 연산 수행");
         int sum = a + b;
         return sum;
+
     }
 }
