@@ -14,5 +14,6 @@ public class Casting1 {
 
         doubleValue = 20L;
         System.out.println("doubleValue = " + doubleValue);
+
     }
 }
